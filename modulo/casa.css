@@ -1,0 +1,69 @@
+.casa {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cuarto-segundo-nivel {
+   background-image: url('../assets/textura\ de\ casa.jpeg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventana {
+     background-image: url('../assets/OIP.webp');
+    width: 95%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+.techo {
+    display: flex;
+    align-items: end;
+}
+
+.pared {
+    width: 100%;
+    height: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.pared div {
+    border: 1px solid black;
+}
+
+
+.entrada {
+     background-image: url('../assets/descarga.webp');
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.puerta {
+    background-image: url('../assets/madera.jpg');
+    background-size: 150%;
+    width: 75px;
+    height: 120px;
+}
+
+.garage {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.porton {
+    width: 90%;
+    height: 90%;
+    background-image: url('../assets/portón.webp');
+}
